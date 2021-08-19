@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=LoopsChallenge
+comment0.text=\n\ Write\ a\ description\ of\ class\ LoopsChallenge\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=str\ n
+comment1.target=java.lang.String\ stringTimes(java.lang.String,\ int)
+comment1.text=\n\ Given\ a\ string\ and\ a\ non-negative\ integer\ n,\ return\ a\ larger\ string\ \n\ that\ is\ n\ copies\ of\ the\ original\ string.\n\ \n\ Examples\:\n\ stringTimes("Hi",\ 2)\ \u2192\ "HiHi"\n\ stringTimes("Hi",\ 3)\ \u2192\ "HiHiHi"\n\ stringTimes("Hi",\ 1)\ \u2192\ "Hi"\n
+comment2.params=str
+comment2.target=int\ countXX(java.lang.String)
+comment2.text=\n\ Count\ the\ number\ of\ "xx"\ in\ the\ given\ string.\ We'll\ say\ that\ \n\ overlapping\ is\ allowed,\ so\ "xxx"\ contains\ 2\ "xx".\n\ \n\ Examples\:\n\ countXX("abcxx")\ \u2192\ 1\n\ countXX("xxx")\ \u2192\ 2\n\ countXX("xxxx")\ \u2192\ 3\n
+comment3.params=str
+comment3.target=boolean\ bobThere(java.lang.String)
+comment3.text=\n\ Return\ true\ if\ the\ given\ string\ contains\ a\ "bob"\ string,\ but\ where\ the\ \n\ middle\ 'o'\ char\ can\ be\ any\ char.\n\ \n\ Examples\:\n\ bobThere("abcbob")\ \u2192\ true\n\ bobThere("b9b")\ \u2192\ true\n\ bobThere("bac")\ \u2192\ false\n
+comment4.params=str
+comment4.target=int\ countCode(java.lang.String)
+comment4.text=\n\ Return\ the\ number\ of\ times\ that\ the\ string\ "code"\ appears\ anywhere\ in\ \n\ the\ given\ string,\ except\ we'll\ accept\ any\ letter\ for\ the\ 'd',\ so\ \n\ "cope"\ and\ "cooe"\ count.\n\ \n\ Examples\:\n\ countCode("aaacodebbb")\ \u2192\ 1\n\ countCode("codexxcode")\ \u2192\ 2\n\ countCode("cozexxcope")\ \u2192\ 2\n
+comment5.params=str
+comment5.target=boolean\ xyBalance(java.lang.String)
+comment5.text=\n\ We'll\ say\ that\ a\ string\ is\ xy-balanced\ if\ for\ all\ the\ "x"\ characters\ \n\ in\ the\ string,\ there\ exists\ a\ "y"\ character\ somewhere\ later\ in\ the\ \n\ string.\ So\ "xxy"\ is\ balanced,\ but\ "xyx"\ is\ not.\ One\ "y"\ can\ balance\ \n\ multiple\ "x"s.\ A\ string\ without\ any\ "x"s\ is\ balanced\ by\ default,\ since\ \n\ there\ are\ no\ "x"s\ to\ unbalance\ it.\ Return\ true\ if\ the\ given\ string\ is\ \n\ xy-balanced.\n\ \n\ Examples\:\n\ xyBalance("aaxbby")\ \u2192\ true\n\ xyBalance("aaxbb")\ \u2192\ false\n\ xyBalance("bbb")\ \u2192\ true\n
+numComments=6
