@@ -19,5 +19,5 @@ comment6.target=void\ bobThereTest()
 comment7.params=
 comment7.target=void\ countCodeTest()
 comment8.params=
-comment8.target=void\ testXyBalance()
+comment8.target=void\ xyBalanceTest()
 numComments=9
